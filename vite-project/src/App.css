@@ -1,0 +1,542 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+}
+
+.maindiv{
+    justify-content: center;
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto;
+    padding-bottom: 80px;
+    column-gap: 20px;
+}
+@media(max-width:550px){
+    .maindiv{
+        grid-template-columns: auto;
+    }
+}
+.div1{
+    height: 685px;
+    width: 500px;
+    margin: 90px 0px 0px 0px;
+    box-shadow: 0.5px 0.5px 6px black;
+    border-radius: 8px;
+}
+@media(max-width:550px){
+    .div1{
+        font-family: arial;
+        padding: 10px 35px 25px 10px;
+        box-shadow: 0.5px 0.5px 6px;
+        margin: 160px 0px 60px 0%;
+        width: 320px;
+        border-radius: 8px;
+        color:  rgb(12, 33, 61);
+        background-color: rgb(255, 255, 255);
+    
+    }
+}
+.cd{
+    padding:5px 0px 10px 20px;
+    font-size: 17px;
+    color: rgb(7, 81, 151);
+}
+@media(max-width:550px){
+    .cd{
+        font-size: 15px;
+    }
+}
+.git{
+    padding: 35px 0px 0px 20px;
+    font-size: 41px;
+    color:  rgb(32, 33, 61);
+}
+@media(max-width:550px){
+    .git{
+        font-size: 32px;
+    }
+}
+.line{
+    height: 0.5px;
+    width: 100%;
+    margin:5px 0px 20px 0px;
+    background-color: rgb(104, 104, 104);
+}
+.h2{
+    font-size: 28px;
+    color: rgb(19,52,91);
+    margin: 10px 0px 0px 25px;
+}
+@media(max-width:550px){
+    .h2{
+        font-size: 25px;
+    }
+}
+.p{
+    font-size: 18px;
+    color: rgb(104, 104, 104);
+    margin: 10px 0px 30px 25px;
+    transition: 0.5s;
+    font-weight: bold;
+}
+.p:hover{
+    color: rgb(7, 81, 151);
+}
+.p1{
+    font-size: 18px;
+    color: rgb(104, 104, 104);
+    margin: 10px 0px 30px 25px;
+    transition: 0.5s;
+    width: 70%;
+    font-weight: bold;
+}
+.p1:hover{
+    color: rgb(7, 81, 151);
+}
+.p2{
+    font-size: 18px;
+    color: rgb(104, 104, 104);
+    margin: -20px 0px 30px 25px;
+    transition: 0.5s;
+    font-weight: bold;
+}
+.p2:hover{
+    color: rgb(7, 81, 151);
+}
+.div2{
+    height: 685px;
+    width: 500px;
+    background-color: rgb(245, 90, 90);
+    margin: 90px 0px 0px 0px;
+    box-shadow: 0.5px 0.5px 6px black;
+    border-radius: 8px;
+}
+@media(max-width:550px){
+    .div2{
+        font-family: arial;
+        padding: 10px 35px 25px 10px;
+        box-shadow: 0.5px 0.5px 6px;
+        margin: 10px 0px 60px 0%;
+        width: 320px;
+        border-radius: 8px;
+    }
+}
+.grts{
+    padding:35px 0px 0px 25px;
+    font-size: 38px;
+    color:  rgb(255, 255, 255);
+}
+@media(max-width:550px){
+    .grts{
+        font-size: 32px;
+    }
+}
+.blah{
+    padding: 5px 0px 20px 25px;
+    font-size: 17px;
+    color: rgb(255, 255, 255);
+}
+@media(max-width:550px){
+    .blah{
+         font-size: 15px;
+    }
+}
+.inputc{
+    margin: 12px 0px 20px 25px;
+    background-color: rgb(255, 255, 255);
+    padding: 15px 0px 15px 10px;
+    border-radius: 4px;
+    width: 85%;
+    background-color: rgb(180, 47, 47);
+    color: white;
+    border: 0px solid grey;
+}
+.inputc::placeholder{
+    color: white;
+    font-size: 14px;
+}
+.input2c{
+    margin: 12px 0px 20px 25px;
+    background-color: rgb(255, 255, 255);
+    padding: 15px 0px 120px 10px;
+    border-radius: 4px;
+    width: 85%;
+    background-color: rgb(180, 47, 47);
+    color: white;
+    border: 0px solid grey;
+}
+.input2c::placeholder{
+    color: white;
+    font-size: 14px;
+}
+.rm{
+    margin: 0px 5px 20px 25px;
+}
+.rm2{
+color: white;
+}
+.button{
+    padding: 15px 28px 15px 28px;
+    border-radius: 5px;
+    font-size: 17px;
+    transition:0.5s;
+    background-color:rgb(7, 81, 151);
+    border: 0px;
+    color: white;
+    margin: 15px 0px 10px 25px;
+}
+.button:hover{
+    background-color: rgb(48, 4, 59);
+    color: rgb(255, 255, 255);
+}
+@media(max-width:500px){
+    .button{
+        margin: 15px 0px 10px 25px;
+    }
+}
+.map{
+    height: 520px;
+    width: 99.7%;
+}
+iframe{
+    height: 100%;
+    width: 100%;
+}
+.read-the-docs {
+  color: #888;
+}
+
+/* About us */
+
+.online-learning{
+   background-color: rgba(231, 233, 238, 0.801);
+    height: 80vh;
+    width: 100%;
+   
+    display: grid;
+    grid-template-columns: auto auto;
+}
+@media(max-width:550px){
+    .online-learning{
+        grid-template-columns: auto;
+        height: 100vh;
+    }
+}
+.text-content{
+    margin: 70px 0px 12px 60px;
+}
+.chead{
+    color:rgb(7, 81, 151);
+    font-size: 17px;
+}
+@media(max-width:550px){
+    .text-content{
+        margin-left: 15px;
+    }
+}
+.abhead{
+    color: rgb(19, 52, 91);
+    margin-bottom: 10px;
+    font-size: 37px;
+}
+@media(max-width:550px){
+    .abhead{
+        font-size: 32px;
+    }
+}
+.abp{
+   font-size: 17px;
+   margin-bottom: 10px;
+   color: rgb(46, 46, 46);
+}
+.feature{
+    padding-top: 7px;
+    list-style-type: circle;
+    margin-left: 17px;
+    color: rgb(46, 46, 46);
+}
+.image-gallery{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 30px 30px 0px 30px;
+}
+.aimage{
+    height: 200px ;
+}
+@media(max-width:550px){
+    .aimage{
+        height: 140px;
+    }
+}
+.view-courses{
+    padding: 15px 35px 15px 35px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 17px;
+    transition:0.3s;
+    background-color:rgb(7, 81, 151);
+    border: 0px;
+    color: white;
+    margin: 25px 0px 10px 0px;
+}
+.view-courses:hover{
+    background-color: rgb(48, 4, 59);
+    color: rgb(255, 255, 255);
+}
+@media(max-width:500px){
+    .view-courses{
+        padding: 18px 37px 18px 37px;
+        font-weight: bold;
+        font-size: 20px;
+        transition:0.3s;
+        background-color:rgb(7, 81, 151);
+        border: 0px;
+        color: white;
+        margin: 30px 0px 10px 0px;
+    }
+    .view-courses:hover{
+        background-color: rgb(48, 4, 59);
+        color: rgb(255, 255, 255);
+    }
+}   
+/* Registeration */
+.mainmd{
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 120px;
+}
+@media(max-width:550px){
+    .mainmd{
+        grid-template-columns: auto;
+    }
+}
+.md{
+    width: 100%;
+    height: 100%;
+}
+.md2{
+    width: 100%;
+    height: 100%;
+}
+.lg{
+    padding:25px 0px 30px 10px;
+    text-align: center;
+    font-size: 40px;
+}
+.lg2{
+    padding:25px 0px 30px 10px;
+    text-align: center;
+    font-size: 40px;
+}
+.rform{
+    font-family: arial;
+    padding: 10px 35px 10px 10px;
+    box-shadow: 0.5px 0.5px 6px;
+    margin: 90px auto 150px auto;
+    width: 500px;
+    border-radius: 8px;
+    background-color: rgb(255, 255, 255);
+    color:  rgb(12, 33, 61);
+}
+@media(max-width:550px){
+    .rform{
+        font-family: arial;
+        padding: 10px 35px 25px 10px;
+        box-shadow: 0.5px 0.5px 6px;
+        margin: 160px auto 60px auto;
+        width: 320px;
+        border-radius: 8px;
+        color:  rgb(12, 33, 61);
+        background-color: rgb(255, 255, 255);
+    
+    }
+}
+.label{
+    font-size: 20px;
+    margin: 0px 5px 15px 25px;
+}
+.male{
+    margin: 20px 0px 25px 0px;
+}
+.sublabel{
+    font-size: 18px;
+    margin: 100px 5px 15px 100px;
+}
+@media(max-width:550px){
+    .sublabel{
+        margin-left: 20px;
+    }
+}
+.rm{
+    color: rgba(255, 255, 255, 0.747);
+    margin: 0px 5px 20px 25px;
+}
+.input{
+    margin: 10px 0px 20px 25px;
+    padding: 12px 0px 12px 5px;
+    width: 92%;
+    border-radius: 4px;
+    border: 1px solid grey;
+}
+.input2{
+    margin: 10px 0px 20px 25px;
+    background-color: rgb(255, 255, 255);
+    padding: 12px 0px 12px 5px;
+    width: 92%;
+    border-radius: 4px;
+    border: 1px solid grey;
+}
+.button{
+    padding: 13px 1px 13px 1px;
+    border-radius: 5px;
+    width: 94%;
+    font-size: 15px;
+    background-color:rgb(7, 81, 151);
+    border: 0px;
+    color: white;
+    margin: 0px 5px 25px 25px;
+}
+.button:hover{
+    background-color: rgb(48, 4, 59);
+    color: rgb(255, 255, 255);
+    transition:0.3s;
+}
+.lyp{
+    text-align: center;
+}
+.lypa{
+    color: rgb(7, 81, 151);
+    text-decoration: none;
+}
+.ll{
+    color: rgb(7, 81, 151);
+    text-decoration: none;
+}
+.ll:hover{
+    color: rgb(7, 81, 151);  
+}
+.lr{
+    display: flex;
+}
+.lyp:hover{
+    text-decoration: underline;
+    color: rgb(7, 81, 151);
+    transition: 0.3s;
+}
+
+/* Login */
+
+.mainmd{
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 120px;
+}
+@media(max-width:550px){
+    .mainmd{
+        grid-template-columns: auto;
+    }
+}
+.md{
+    width: 100%;
+    height: 100%;
+}
+.md2{
+    width: 100%;
+    height: 100%;
+}
+.lg{
+    padding:25px 0px 30px 10px;
+    text-align: center;
+    font-size: 40px;
+}
+.lg2{
+    padding:25px 0px 30px 10px;
+    text-align: center;
+    font-size: 40px;
+}
+.lform{
+    font-family: arial;
+    padding: 10px 35px 10px 10px;
+    box-shadow: 0.5px 0.5px 6px;
+    margin: 90px auto 150px auto;
+    width: 500px;
+    height: 578px;
+    border-radius: 8px;
+    color: rgb(12, 33, 61);
+    background-color: rgb(255, 255, 255);
+}
+@media(max-width:550px){
+    .lform{
+        font-family: arial;
+        padding: 10px 35px 25px 10px;
+        box-shadow: 0.5px 0.5px 6px;
+        margin: 160px auto 60px auto;
+        width: 320px;
+        border-radius: 8px;
+        color:  rgb(12, 33, 61);
+        background-color: rgb(255, 255, 255);
+    
+    }
+}
+.label{
+    font-size: 20px;
+    margin: 0px 5px 15px 25px;
+}
+.rm{
+    color: rgba(255, 255, 255, 0.747);
+    margin: 0px 5px 20px 25px;
+}
+.inputl{
+    margin: 10px 0px 20px 25px;
+    padding: 12px 0px 12px 5px;
+    width: 92%;
+    border-radius: 4px;
+    border: 1px solid grey;
+}
+.input2l{
+    margin: 10px 0px 20px 25px;
+    background-color: rgb(255, 255, 255);
+    padding: 12px 0px 12px 5px;
+    width: 92%;
+    border-radius: 4px;
+    border: 1px solid grey;
+}
+.button{
+    padding: 13px 1px 13px 1px;
+    border-radius: 5px;
+    width: 94%;
+    font-size: 15px;
+    background-color:rgb(7, 81, 151);
+    border: 0px;
+    color: white;
+    margin: 0px 5px 25px 25px;
+}
+.button:hover{
+    background-color: rgb(48, 4, 59);
+    color: rgb(255, 255, 255);
+    transition:0.3s;
+}
+.lyp{
+    text-align: center;
+}
+.lypa{
+    color: rgb(7, 81, 151);
+    text-decoration: none;
+}
+.ll{
+    color: rgb(7, 81, 151);
+    text-decoration: none;
+}
+.ll:hover{
+    color: rgb(7, 81, 151);  
+}
+.lr{
+    display: flex;
+}
+.lyp:hover{
+    text-decoration: underline;
+    color: rgb(7, 81, 151);
+    transition: 0.3s;
+}
+

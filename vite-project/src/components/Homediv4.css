@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding:0 ;
+}
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.courses{
+        color: rgb(7, 81, 151);
+        font-size: 15px;
+        text-align: center;
+    
+}
+
+.Learning{
+    color: rgb(19,52,91);
+    font-size: 35px;
+    text-align: center;
+    margin: 10px 0px 20px 0px ;
+}
+
+.para2{
+    width: 60%;
+    padding: 0px 10px 20px 20%;
+    color: gray;
+    text-align: center;
+}
+@media(max-width:550px){
+    .para2{
+        width: 90%;
+        padding: 10px 15px;
+    }
+}
+
+/* Programs Section */
+.programs {
+    background: #ffffff;
+    padding: 3rem 1rem;
+    margin: 50px 0px 70px 0px;
+}
+.program-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+}
+.card {
+    background: rgb(248, 248, 248);
+    padding: 1.5rem;
+    box-shadow: 0.5px 0.5px 6px;
+    margin-top: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+.card:hover{
+    margin-top: 0px ;
+    margin-bottom: 10px;
+    transition:0.5s ;
+}
+.ch {
+    color:rgb(24, 69, 124);
+    font-size: 22px;
+}
+

@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+}
+.mdiv{
+    height: max-content;
+    overflow: hidden;
+    width: 100%;
+    background-color: rgba(231, 233, 238, 0.801);
+    margin-top:20px;
+    margin-bottom: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    justify-content: center;
+    display: flex;
+}
+.subdiv{
+    height: 55vh;
+    width: 90%;
+    margin: auto;
+    background-color: white;
+    box-shadow: 0.5px 0.5px 5px;
+    border-radius: 7px;
+}
+@media(max-width:550px){
+    .subdiv{
+        height: 75vh;
+    }
+}
+.heading3{
+    color: rgb(18, 60, 112);
+    margin: 12px 0px 0px 12px;
+}
+.para3{
+    color: rgb(56, 56, 56);
+    margin: 12px 12px 0px 12px;
+}
+.mgrid{
+    height: 220px;
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: rgba(137, 43, 226, 0);
+}
+@media(max-width:550px){
+    .mgrid{
+        grid-template-columns: auto;
+    }
+}
+.grid{
+    background-color: rgba(232, 233, 233, 0.801);
+    height:83%;
+    border-radius: 5px;
+    width: auto;
+    margin: 15px 7px 15px 15px;
+}
+@media(max-width:550px){
+    .grid{
+        width: 83vw;
+        height: 90%;
+    }
+}
+.randomp{
+    font-size: 14px;
+    color: rgb(78, 78, 78);
+    margin: 15px 7px 15px 15px;
+    width: 100%;
+}
+.forestd{
+    display: flex;
+}
+.forest{
+    border-radius: 100%;
+    height: 50px;
+    margin: 15px 7px 15px 15px;
+    width: 50px;
+}
+.mm{
+    margin: 33px 7px 15px 7px;
+}
+.wd{
+    margin: 35px 7px 15px 2px;
+    color: rgb(78, 78, 78);
+    font-size: 13px;
+}
+.grid2{
+    height: 90%;
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 15px 15px 15px 7px;
+}
+.sdiv{
+    background-color: rgba(232, 233, 233, 0.801);
+    height: 93px;
+    text-align: center;
+    width: 13vw;
+    border-radius: 5px;
+    margin: 0px 10px 14px 5px;
+}
+@media(max-width:550px){
+    .sdiv{
+        width: 40.5vw;
+    }
+}
+.sdivh{
+    color: rgb(7,81,121);
+    margin-top: 17px;
+}
+.sdivp{
+    color: rgb(78, 78, 78);
+}
+.lastdiv{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.rn{
+    color: rgb(7, 81, 151);
+    text-decoration: none;
+    margin-left: 5px;
+}
+.lyp{
+    color: rgb(7, 81, 151);
+}
+.lyp:hover{
+    text-decoration: underline;
+}

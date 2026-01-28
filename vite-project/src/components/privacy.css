@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+}
+.maindiv{
+    height: fit-content;   
+    background-color: rgb(243,243,243);
+    display: grid;
+    justify-content: center;
+    grid-template-columns: auto auto;
+}
+.sub1{
+    height: fit-content;
+    width: 95vw;
+    margin: 50px 0px 50px 0px;
+    padding-bottom: 50px;
+    background-color: rgb(255, 255, 255);
+}
+.s2d1{
+    background-color: rgb(255, 255, 255);
+    height: 230px;
+}
+.ppupdate{
+    color: rgb(104, 104, 104);
+    padding: 15px 0px 10px 15px ;
+}
+.heading{
+    font-size: 29px;
+    color:  rgb(32, 33, 61);
+    padding: 20px 0px 25px 15px ;
+}
+.para{
+    color: rgb(104, 104, 104);
+    font-size: 17px;
+    font-weight: bold;
+    padding-bottom: 5px;
+    margin: 5px 5px 7px 15px;
+}
